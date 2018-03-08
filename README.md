@@ -6,6 +6,13 @@ To develop a classifier to classify the incoming microblog streams into 10 pre-d
 
 Data set is not uploaded due to privacy issues, to contact me if interested.
 
+### Program structure
+The programme consists of the following:
+1.	Pre-processing of text data
+2.	Feature selection based on Document frequency
+3.	Classification using machine learning techniques
+4.	Testing and optimisation based on 10-fold cross validation and precision, recall, and f1 scores
+
 ### Environment Setting
 Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)]
 
@@ -18,7 +25,7 @@ Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45) [MSC v.
 
 ### Usage 
 ### Late fusion
-1. Run 'Latefusion_preprocess.py' to prepocess tweet content, including data cleaning (e.g., remove url, punctuations, time), word tokenize, stemming, remove low-frequency words and stopping words.
+1. Run 'Latefusion_preprocess.py' to prepocess tweet content, including data cleaning (e.g., remove url, punctuations, time), word tokenize, stemming, remove low-frequency words and stopping words. 
  
 2. Run 'Latefusion_classifier.py' which performs the following:
 - load preprocessed data
