@@ -4,6 +4,8 @@ Text Classification of Twitter microblog data
 ### Objectives:
 To develop a classifier to classify the incoming microblog streams into 10 pre-defined classes (“Health”, “Business”, “Arts”, “Sports”, “Shopping”, “Politics”, “Education”, “Technology”, “Entertainment”, “Travel”). The classification needs to examine the content of microblogs, as well as other information such as hashtags and user info.
 
+Data set is not uploaded due to privacy issues, to contact me if interested.
+
 ### Environment Setting
 Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)]
 
